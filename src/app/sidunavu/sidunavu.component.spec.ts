@@ -8,10 +8,9 @@ describe('SidunavuComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SidunavuComponent]
-    })
-    .compileComponents();
-    
+      imports: [SidunavuComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(SidunavuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
